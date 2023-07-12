@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import UseReducer from "./useReducer/UseReducer";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* this is for prop drilling **************** */}
+    {/* <h1>Hello Prop Driling</h1>
+    <ComA/> */}
+
+    { /* this is for context API ********************* */ }
+    {/* <h1>Hello Context API</h1>
+    <ComA/> */}
+
+    { /* this is for context API ********************* */ }
+    {/* <h1>Hello useContext</h1>
+    <ComA/> */}
+    
+    { /* this is use reducer ********************* */ }
+    <h1>Hello Use Reducer</h1>
+    <UseReducer/>
+
+    </>
   );
 }
 
